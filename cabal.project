@@ -1,0 +1,3 @@
+packages: ./toy-package-a
+          ./toy-package-target
+          ./toy-plugin
