@@ -1,6 +1,10 @@
+
+{-# LANGUAGE PackageImports #-}
+
 module Main where
 
-import Toy.A (test)
+import "toy-package-a" Data.Tuple (snd)
+import "toy-package-a" Toy.A (test)
 
 main :: IO ()
-main = print test
+main = print $ snd (True, test)

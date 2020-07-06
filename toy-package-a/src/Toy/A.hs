@@ -1,6 +1,7 @@
 
 module Toy.A ( test ) where
 
+import Prelude
 
 test :: Bool
-test = 1 == 1
+test = snd (True, 1 == 1)
