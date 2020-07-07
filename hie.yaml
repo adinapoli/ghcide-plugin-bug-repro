@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "./toy-package-a/src"
+      component: "lib:toy-package-a"
+
+    - path: "./toy-package-target/./Main.hs"
+      component: "toy-package-target:exe:toy-package-target-exe"
+
+    - path: "./toy-plugin/src"
+      component: "lib:toy-plugin"

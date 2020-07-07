@@ -3,7 +3,6 @@ tags
 .ghc.environment*
 **/.liquid
 .vim
-hie.yaml
 **/*.hi
 **/*.o
 .stack-work
